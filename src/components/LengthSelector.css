@@ -1,0 +1,38 @@
+.length_wrapper {
+  width: 100%;
+}
+.length_show {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.number_show {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  color: #a4ffaf;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+
+  background-color: #17161f;
+  outline: none;
+  height: 7px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  margin-left: 1px;
+
+  background-color: #e6e5ea;
+  cursor: pointer;
+}
+.slider:active::-webkit-slider-thumb {
+  background-color: #1a1521;
+  box-shadow: inset 0px 0px 0px 1.5px #a4ffaf;
+}

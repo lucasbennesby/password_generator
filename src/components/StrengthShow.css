@@ -1,0 +1,27 @@
+.strength_wrapper {
+  width: 410px;
+  height: 50px;
+  background-color: #18171f;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.strength_wrapper > p {
+  margin-left: 20px;
+}
+.s_indicators {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.indicator {
+  border: 2px solid #fff;
+  margin: 0px 4px;
+  padding: 1px 2px;
+  height: 20px;
+}
+.indicator_active {
+  background-color: #facc63;
+  border: 2px solid #facc63;
+}

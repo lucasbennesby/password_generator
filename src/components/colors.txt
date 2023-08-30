@@ -1,0 +1,41 @@
+bg: #0f0e14
+main: #24232b
+green: #a4ffaf
+yellow: #f6cd6b
+black: #1a1426
+black bg component: #18171f
+white: #d4d2db
+
+<li>
+          <input
+            className="checkbox"
+            type="checkbox"
+            id="uppercase"
+            name="uppercase"
+          />
+          <label for="uppercase">Inlcude Uppercase Letters</label>
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            name="lowercase"
+            id="lowercase"
+          />
+          <label for="lowercase">Include Lowercase Letters</label>
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            name="numbers"
+            id="numbers"
+          />
+          <label for="number">Include Numbers</label>
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            name="symbols"
+            id="symbols"
+          />
+          <label for="symbols">Include Symbols</label>
+        </li>
